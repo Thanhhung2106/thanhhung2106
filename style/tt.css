@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;500&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:'Azeret Mono', monospace; 
+	color:aliceblue;
+	box-sizing: border-box;
+	cursor: url("../img/HHHDD.png"),auto;
+}
+*:hover{
+	cursor: url("../img/HHHDD.png"),auto;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.line{
+	width:100%;
+	height:1.5px;
+	background:aliceblue;
+	margin:50px 0
+}
+#banner1{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	padding:10px;
+	align-items: center;
+	background:#192A4E;
+	position:fixed; 
+	z-index: 99999;
+	opacity:90%
+}
+#menu ul{
+	list-style: none;
+	display:flex;
+	margin-right: 30px
+	
+}
+#menu a{
+	color:white;
+	text-decoration: none;
+	margin: 0 20px
+}
+#menu .a:hover{
+	background:white;
+	color:rgba(90,28,157,1.00);
+	border:1px solid #192A4E;
+	border-radius: 10px;
+	padding:5px;
+}
+.header{
+	height:1100px;
+	width:100%;
+	background:url("../img/H12Bf0037MidAutumnFesti01 [Converted].png");
+	background-size: cover;
+}
+.logo{
+	text-align: center;
+	font-size: 25px;
+	padding: 0 20px;
+}
+.logo img{
+	width:60px;
+}
+.logo h1{
+	font-size:10px;
+	opacity: 70%;
+	padding-top: 5px
+}
+.banner2 {
+	background:#192A4E;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	width:100%;
+	padding:70px 20px;
+}
+.doanvien{
+	width:40%;
+}
+.doanvien img{
+	width:100%;
+	
+}
+.text {
+	width:40%;
+}
+.text h1{
+	font-size: 40px;
+}
+.text p{
+	font-size: 20px;
+	padding:50px 0 ;
+}
+.text a{
+	font-size: 25px;
+	text-decoration: none;
+	color:aliceblue;
+	border:1px solid white;
+	padding:10px;
+	border-radius:10px
+}
+.text:hover a{
+	background:white;
+	color:rgba(90,28,157,1.00);
+}
+#vuitt{
+	padding:50px;
+	color:rgba(90,28,157,1.00);
+}
+.banner3{
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+	padding:30px 0;
+}
+#vuitt:hover{
+	background:url("../img/99b43b45870bc56e375734f21ae9e528.gif");
+	background-size: cover;
+	color:aliceblue;
+}
+.banh img{
+	width:300px;
+	height:300px;
+	border:3px solid rgba(90,28,157,1.00);
+	border-radius:50%
+}
+		
+.banh{
+	width:30%;
+	color:rgba(90,28,157,1.00);
+}
+.banh:hover{
+	color:aliceblue;
+}
+.banh h2{
+	padding:30px
+}
+.gtch{
+	position:relative;
+}
+.textch {
+	width:30%;
+	position:absolute;
+	z-index: 1;
+	text-align: center;
+	left:60px;
+	top:200px;
+}
+.textch h1{
+	font-size: 40px;
+	padding-bottom: 30px
+}
+.textch p{
+	font-size: 20px;
+}
+.chihang{
+	display:flex;
+	background:#192A4E;
+	position:relative;
+}
+.chihang:hover .nguoi{
+	opacity: 0%
+}
+.chihang .hoa{
+	position:absolute;
+	visibility: hidden;	
+}
+.chihang:hover .hoa{
+	visibility: visible;
+	
+}
+.chihang img{
+	width:100%;
+}
+.thongoc{
+	position: relative;
+	
+}
+.texttho{
+	width:30%;
+	position: absolute;
+	top:160px;
+	left:160px;
+	z-index: 100;
+	text-align: center;
+}
+.texttho h1{
+	font-size:40px;
+	
+}
+.texttho:hover h1{
+	font-size: 60px;
+}
+
+.texttho p{
+	font-size: 20px;
+	margin:40px 0;
+}
+.tt{
+	width:100%;
+	height:615px;
+	background:#192A4E;
+	position:relative;
+	z-index: 1
+}
+.canh{
+	width:70%;
+	position:absolute;
+	right:0px;
+	z-index: 1;
+}
+.tho{
+	width:25%;
+	position:absolute;
+	right:101px;
+	bottom:125px;
+	z-index:1000;
+	transition-duration: 2s;
+	visibility: hidden;
+	height:0
+}
+.tt:hover .tho{
+	height:35%;
+	visibility:visible;
+	
+}
+.ct .canh1{
+	height:0;
+	bottom:0
+		
+}
+.ct:hover .canh1{
+	height:100%;
+	transition-duration: 2s;
+}
+.canh1{
+	width:50%;
+	position:absolute;
+	right:0px;
+	z-index: 1111	;
+	visibility: hidden;
+}
+.tt:hover .canh1{
+	visibility:visible;
+}
+.gtcuoi{
+	background:url("../img/99b43b45870bc56e375734f21ae9e528.gif");
+	background-position: center;
+	background-size: cover
+}
+.textcuoi1{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.textcuoi{
+	margin:0 auto; 	 	
+	width:60%;
+	text-align: center;
+}
+.textcuoi h1 {
+	font-size: 40px;
+	padding:40px 10px; 
+}
+.textcuoi p {
+	font-size: 20px;
+	padding-bottom:70px 
+}
+.cuoi img{
+	width:100%
+}
+.line1{
+	width:100px;
+	height:3px;
+	background:aliceblue;
+}
+.footer{
+	height:100px;
+	background:#192A4E;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 100;
+}
+.row a{
+	text-decoration: none;
+	font-size: 14px;
+	color:white;
+	padding:40px
+}
